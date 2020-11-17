@@ -1,0 +1,152 @@
+/* estilo */
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 .nav-bar {
+  background-color: seagereen;
+  box-shadow: rgb(205, 50, 50);
+  min-height: 100px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 80px;
+  color: black;
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+/*  --  nosotros  -- */
+
+.nosotros {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  padding: 60px;
+  padding-right: 90px;
+  padding-left: 90px;
+  justify-content: space-around;
+}
+.texto {
+  width: 50%;
+  color: black;
+  font-weight: 600;
+}
+
+.sobre_nosotros_morado {
+  color: rgb(247, 231, 0);
+  font-size: 38px;
+  font-weight: 1000;
+}
+
+/*  --  valores  -- */
+
+h2 {
+  font-size: 55px;
+}
+
+.vmv {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  margin-top: 0px;
+}
+
+.valores_verde {
+  color: #00adb3;
+}
+
+.caja {
+  width: 33.33%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.span {
+  color: red;
+}
+
+.nav-link:hover {
+  color: rgb(255, 0, 0);
+}
+
+.logo_celular {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+#telefonos {
+  background-image: url('imagenes/celulares.jpg');
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: aliceblue;
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.portfolio-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10 px 0;
+  border-radius: 2px;
+}
+
+.portfolio-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+  -moz-transforms: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.portfolio-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+  font-weight: 560;
+}
+
+.portfolio-details h2 {
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.portfolio-details a h2,
+.portfolio-details a p {
+  color: rgb(0, 0, 0);
+}
